@@ -1,26 +1,132 @@
- {
+{
   "Card-Flip": [
-      {
-        "imageSet":
-        [
-          "./assets/farm_animals/cow.png",
-          "./assets/farm_animals/rabbit.png",
-          "./assets/farm_animals/dog.png",
-          "./assets/farm_animals/cat.png",
-          "./assets/farm_animals/camel.png",
-          "./assets/farm_animals/sheep.png"
-        ]
-      },
-      {
-        "imageSet":
-        [
-          "/assets/study_material/pen.png",
-          "/assets/study_material/pencil.png",
-          "/assets/study_material/book.jpeg",
-          "/assets/study_material/eraser.png",
-          "/assets/study_material/sharpner.png",
-          "/assets/study_material/notebook.png"
-        ]
-      }
+    {
+      "imageSet": [
+        {
+          "id": 1,
+          "image": "./assets/farm_animals/cow.png",
+          "itemId": 1
+        },
+        {
+          "id": 2,
+          "image": "./assets/farm_animals/rabbit.png",
+          "itemId": 2
+        },
+        {
+          "id": 3,
+          "image": "./assets/farm_animals/dog.png",
+          "itemId": 3
+        },
+        {
+          "id": 4,
+          "image": "./assets/farm_animals/cat.png",
+          "itemId": 4
+        },
+        {
+          "id": 5,
+          "image": "./assets/farm_animals/camel.png",
+          "itemId": 5
+        },
+        {
+          "id": 6,
+          "image": "./assets/farm_animals/sheep.png",
+          "itemId": 6
+        },
+        {
+          "id": 7,
+          "image": "./assets/farm_animals/cow.png",
+          "itemId": 1
+        },
+        {
+          "id": 8,
+          "image": "./assets/farm_animals/rabbit.png",
+          "itemId": 2
+        },
+        {
+          "id": 9,
+          "image": "./assets/farm_animals/dog.png",
+          "itemId": 3
+        },
+        {
+          "id": 10,
+          "image": "./assets/farm_animals/cat.png",
+          "itemId": 4
+        },
+        {
+          "id": 11,
+          "image": "./assets/farm_animals/camel.png",
+          "itemId": 5
+        },
+        {
+          "id": 12,
+          "image": "./assets/farm_animals/sheep.png",
+          "itemId": 6
+        }
+      ]
+    },
+    {
+      "imageSet": [
+        {
+          "id": 1,
+          "image": "/assets/study_material/pen.jpeg",
+          "itemId": 1
+        },
+        {
+          "id": 2,
+          "image": "/assets/study_material/pencil.jpeg",
+          "itemId": 2
+        },
+        {
+          "id": 3,
+          "image": "/assets/study_material/book.jpeg",
+          "itemId": 3
+        },
+        {
+          "id": 4,
+          "image": "/assets/study_material/eraser.png",
+          "itemId": 4
+        },
+        {
+          "id": 5,
+          "image": "/assets/study_material/sharpner.jpeg",
+          "itemId": 5
+        },
+        {
+          "id": 6,
+          "image": "/assets/study_material/notebook.jpeg",
+          "itemId": 6
+        },
+        {
+          "id": 7,
+          "image": "/assets/study_material/pen.jpeg",
+          "itemId": 1
+        },
+        {
+          "id": 8,
+          "image": "/assets/study_material/pencil.jpeg",
+          "itemId": 2
+        },
+        {
+          "id": 9,
+          "image": "/assets/study_material/book.jpeg",
+          "itemId": 3
+        },
+        {
+          "id": 10,
+          "image": "/assets/study_material/eraser.png",
+          "itemId": 4
+        },
+        {
+          "id": 11,
+          "image": "/assets/study_material/sharpner.jpeg",
+          "itemId": 5
+        },
+        {
+          "id": 12,
+          "image": "/assets/study_material/notebook.jpeg",
+          "itemId": 6
+        }
+      ]
+    }
   ]
 }
