@@ -1,0 +1,15 @@
+.cards {
+  -webkit-box-shadow: 0 0 10px var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-color);
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cards__image {
+  -webkit-box-shadow: 0 0 10px var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-color);
+  height: 150px;
+  width: 150px;
+}
