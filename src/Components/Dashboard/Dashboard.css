@@ -1,0 +1,21 @@
+.dashboard{
+  height: 100vh;
+  background-color: rgb(13, 13, 14);
+  width: 20rem;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(22, 216, 200);
+}
+
+.dashboard__title{
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.dashboard__score{
+  text-transform: capitalize;
+  font-size: 1.4rem;
+}
