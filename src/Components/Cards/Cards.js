@@ -13,8 +13,8 @@ const getRandomCards = (images) => {
   return images;
 };
 
-export const Cards = ({ score, setScore }) => {
-  console.log(score);
+export const Cards = ({ setScore }) => {
+
   const [cardChoiceOne, setCardChoiceOne] = useState(null);
   const [cardChoiceTwo, setCardChoiceTwo] = useState(null);
   const [cards, setCards] = useState([]);

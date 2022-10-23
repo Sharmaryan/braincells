@@ -16,7 +16,7 @@ export const Card = ({ card, handleChoice, isFlipped }) => {
         />
         <img
           className="card__back card__image"
-          src="https://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-blue-solid-color-background.jpg"
+          src="https://static.vecteezy.com/system/resources/previews/004/435/902/original/white-plane-symbol-on-a-blue-background-airplane-flight-path-banner-travel-tours-banner-template-horizontal-advertising-business-banner-layout-template-clean-abstract-background-for-web-vector.jpg"
           alt="card back"
           onClick={handleClick}
         />

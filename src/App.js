@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1>{score}</h1>
-      <Cards score={score} setScore={setScore} />
+      <Cards setScore={setScore} />
     </div>
   );
 }
