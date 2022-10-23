@@ -6,12 +6,35 @@
 
 :root {
   --primary-color: rgb(226, 167, 5);
+  --secondary-color: 
 }
 
-.App {
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(81, 108, 148);
+}
+
+.app__sidebar{
+  height: 100vh;
+  background-color: rgb(13, 13, 14);
+  width: 20rem;
+  margin-left: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: rgb(96, 130, 182);
+  flex-direction: column;
+  color: rgb(22, 216, 200);
+}
+
+.app__dashboard{
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.app__score{
+  text-transform: capitalize;
+  font-size: 1.4rem;
 }
