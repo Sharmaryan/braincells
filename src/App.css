@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: rgb(241, 190, 49);
+  --primary-color: rgb(226, 167, 5);
 }
 
 .App {
@@ -13,5 +13,5 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: rgba(26, 1, 41, 0.966);
+  background-color: rgba(70, 136, 129, 0.966);
 }

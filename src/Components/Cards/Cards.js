@@ -13,7 +13,8 @@ const getRandomCards = (images) => {
   return images;
 };
 
-export const Cards = () => {
+export const Cards = ({ score, setScore }) => {
+  console.log(score);
   const [cardChoiceOne, setCardChoiceOne] = useState(null);
   const [cardChoiceTwo, setCardChoiceTwo] = useState(null);
   const [cards, setCards] = useState([]);
@@ -25,15 +26,17 @@ export const Cards = () => {
     if (images === undefined) {
       alert("quiz finished, starting again");
       setNextQuiz(0);
+      setScore(0);
       setCards([]);
     } else {
       setCards(getRandomCards(images));
     }
-  }, [images]);
+  }, [images, setScore]);
 
   useEffect(() => {
     if (cardChoiceOne && cardChoiceTwo) {
       if (cardChoiceOne.itemId === cardChoiceTwo.itemId) {
+        setScore((score) => score + 10);
         setCards((cards) => {
           return cards.map((card) =>
             card.itemId === cardChoiceOne.itemId
@@ -48,7 +51,7 @@ export const Cards = () => {
         }, 1000);
       }
     }
-  }, [cardChoiceOne, cardChoiceTwo]);
+  }, [cardChoiceOne, cardChoiceTwo, setScore]);
 
   useEffect(() => {
     if (cards.length !== 0) {
