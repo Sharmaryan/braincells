@@ -5,11 +5,21 @@ import { Dashboard } from "./Components/Dashboard/Dashboard";
 
 function App() {
   const [score, setScore] = useState(0);
+  const [quizNumber, setQuizNumber] = useState(1);
+
 
   return (
     <div className="app">
-      <Cards setScore={setScore} />
-      <Dashboard score={score} />
+      <Cards
+        setScore={setScore}
+        quizNumber={quizNumber}
+        setQuizNumber={setQuizNumber}
+      />
+      <Dashboard
+        score={score}
+        quizNumber={quizNumber}
+        setQuizNumber={setQuizNumber}
+      />
     </div>
   );
 }

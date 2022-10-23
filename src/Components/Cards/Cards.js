@@ -13,12 +13,16 @@ const getRandomCards = (images) => {
   return images;
 };
 
-export const Cards = ({ setScore }) => {
-
+export const Cards = ({ setScore, quizNumber, setQuizNumber }) => {
   const [cardChoiceOne, setCardChoiceOne] = useState(null);
   const [cardChoiceTwo, setCardChoiceTwo] = useState(null);
   const [cards, setCards] = useState([]);
   const [nextQuiz, setNextQuiz] = useState(0);
+  const [flip, setFlip] = useState(true);
+
+  setTimeout(() => {
+    setFlip(false);
+  }, 2000);
 
   const images = data["Card-Flip"]?.[nextQuiz]?.imageSet;
 
@@ -27,11 +31,12 @@ export const Cards = ({ setScore }) => {
       alert("quiz finished, starting again");
       setNextQuiz(0);
       setScore(0);
+      setQuizNumber(0)
       setCards([]);
     } else {
       setCards(getRandomCards(images));
     }
-  }, [images, setScore]);
+  }, [images, setScore, setQuizNumber]);
 
   useEffect(() => {
     if (cardChoiceOne && cardChoiceTwo) {
@@ -59,9 +64,10 @@ export const Cards = ({ setScore }) => {
 
       if (allClicked.length === cards.length) {
         setNextQuiz((nextQuiz) => nextQuiz + 1);
+        setQuizNumber(quiz => quiz + 1)
       }
     }
-  }, [cards]);
+  }, [cards, setQuizNumber]);
 
   const resetTurn = () => {
     setCardChoiceOne(null);
@@ -80,7 +86,10 @@ export const Cards = ({ setScore }) => {
           card={card}
           handleChoice={handleChoice}
           isFlipped={
-            card === cardChoiceOne || card === cardChoiceTwo || card.isMatched
+            flip ||
+            card === cardChoiceOne ||
+            card === cardChoiceTwo ||
+            card.isMatched
           }
         />
       ))}
