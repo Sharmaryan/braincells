@@ -7,7 +7,6 @@ function App() {
   const [score, setScore] = useState(0);
   const [quizNumber, setQuizNumber] = useState(1);
 
-
   return (
     <div className="app">
       <Cards

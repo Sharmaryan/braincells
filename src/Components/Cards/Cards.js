@@ -22,7 +22,7 @@ export const Cards = ({ setScore, quizNumber, setQuizNumber }) => {
 
   setTimeout(() => {
     setFlip(false);
-  }, 2000);
+  }, 3000);
 
   const images = data["Card-Flip"]?.[nextQuiz]?.imageSet;
 
