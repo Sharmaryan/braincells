@@ -5,62 +5,74 @@
         {
           "id": 1,
           "image": "./assets/farm_animals/cow.png",
-          "itemId": "1"
+          "itemId": "1",
+          "isMatched":false
         },
         {
           "id": 2,
           "image": "./assets/farm_animals/rabbit.png",
-          "itemId": "2"
+          "itemId": "2",
+          "isMatched":false
         },
         {
           "id": 3,
           "image": "./assets/farm_animals/dog.png",
-          "itemId": "3"
+          "itemId": "3",
+          "isMatched":false
         },
         {
           "id": 4,
           "image": "./assets/farm_animals/cat.png",
-          "itemId": "4"
+          "itemId": "4",
+          "isMatched":false
         },
         {
           "id": 5,
           "image": "./assets/farm_animals/camel.png",
-          "itemId": "5"
+          "itemId": "5",
+          "isMatched":false
         },
         {
           "id": 6,
           "image": "./assets/farm_animals/sheep.png",
-          "itemId": "6"
+          "itemId": "6",
+          "isMatched":false
         },
         {
           "id": 7,
           "image": "./assets/farm_animals/cow.png",
-          "itemId": "1"
+          "itemId": "1",
+          "isMatched":false
         },
         {
           "id": 8,
           "image": "./assets/farm_animals/rabbit.png",
-          "itemId": "2"
+          "itemId": "2",
+          "isMatched":false
         },
         {
           "id": 9,
           "image": "./assets/farm_animals/dog.png",
-          "itemId": "3"
+          "itemId": "3",
+          "isMatched":false
         },
         {
           "id": 10,
           "image": "./assets/farm_animals/cat.png",
-          "itemId": "4"
+          "itemId": "4",
+          "isMatched":false
         },
         {
           "id": 11,
           "image": "./assets/farm_animals/camel.png",
-          "itemId": "5"
+          "itemId": "5",
+          "isMatched":false
         },
         {
           "id": 12,
           "image": "./assets/farm_animals/sheep.png",
-          "itemId": "6"
+          "itemId": "6",
+          "isMatched":false
         }
       ]
     },
@@ -69,62 +81,74 @@
         {
           "id": 1,
           "image": "/assets/study_material/pen.jpeg",
-          "itemId": "1"
+          "itemId": "1",
+          "isMatched":false
         },
         {
           "id": 2,
           "image": "/assets/study_material/pencil.jpeg",
-          "itemId": "2"
+          "itemId": "2",
+          "isMatched":false
         },
         {
           "id": 3,
           "image": "/assets/study_material/book.jpeg",
-          "itemId": "3"
+          "itemId": "3",
+          "isMatched":false
         },
         {
           "id": 4,
           "image": "/assets/study_material/eraser.png",
-          "itemId": "4"
+          "itemId": "4",
+          "isMatched":false
         },
         {
           "id": 5,
           "image": "/assets/study_material/sharpner.jpeg",
-          "itemId": "5"
+          "itemId": "5",
+          "isMatched":false
         },
         {
           "id": 6,
           "image": "/assets/study_material/notebook.jpeg",
-          "itemId": "6"
+          "itemId": "6",
+          "isMatched":false
         },
         {
           "id": 7,
           "image": "/assets/study_material/pen.jpeg",
-          "itemId": "1"
+          "itemId": "1",
+          "isMatched":false
         },
         {
           "id": 8,
           "image": "/assets/study_material/pencil.jpeg",
-          "itemId": "2"
+          "itemId": "2",
+          "isMatched":false
         },
         {
           "id": 9,
           "image": "/assets/study_material/book.jpeg",
-          "itemId": "3"
+          "itemId": "3",
+          "isMatched":false
         },
         {
           "id": 10,
           "image": "/assets/study_material/eraser.png",
-          "itemId": "4"
+          "itemId": "4",
+          "isMatched":false
         },
         {
           "id": 11,
           "image": "/assets/study_material/sharpner.jpeg",
-          "itemId": "5"
+          "itemId": "5",
+          "isMatched":false
         },
         {
           "id": 12,
           "image": "/assets/study_material/notebook.jpeg",
-          "itemId": "6"
+          "itemId": "6",
+          "isMatched":false
         }
       ]
     }
